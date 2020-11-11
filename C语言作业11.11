@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main(){
+	int arr[]={31,28};
+	int user_num;
+	scanf("%d\n",&user_num);
+	printf("%d",arr[user_num-1]);
+
+
