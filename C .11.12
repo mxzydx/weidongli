@@ -1,0 +1,8 @@
+#include<stdio.h>
+void 
+world(){
+printf("同桌，加油\n");
+}
+void main(){
+world();
+}
