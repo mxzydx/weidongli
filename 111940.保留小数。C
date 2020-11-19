@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main(){
+double a;
+scanf("%1f",&a);
+printf("%25f",a);
+
+
+}
