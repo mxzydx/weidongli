@@ -1,29 +1,22 @@
 #include<stdio.h>
+
 void main()
 {
-int a,b,c,x;
-scanf("%d%d%d",&a,&b,&c);
-if(a>b){
-x=a;
-a=b;
-b=x;
+int x,y,z,t;
+scanf("%d,%d,%d",&x,&y,&z);
+if(x>y)
+{
+t=x;x=y;y=t;
 }
-if(a>c){
-
-x=a;
-a=c;
-c=x;
-
-}
-if(b>c){
-x=b;
-b=c;
-c=x;
-
-
+if(x>z)
+{
+t=x;x=z;z=t;
 }
 
-printf("输出结果为升序\n%d%d%d\n",a,b,c);
-
-
+if(y>z)
+{
+t=y;y=z;z=t;
 }
+printf("%d,%d,%d",x,y,z);
+}
+
