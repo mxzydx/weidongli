@@ -25,16 +25,4 @@ for(a=0;a<10;a++){
 printf("\n");
 }
 
-for(a=0;a<10;a++){
-	for(b=0;b<20;b++){
-		array2d[a][b]=999;
-		printf("%d ",array2d[a][b]);
-Sleep(100);
-	}
-printf("\n");
-
-
-
-}
-
 }
