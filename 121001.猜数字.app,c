@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<windows.h>
+void main(){
+	char i[]="有趣的灵魂两白斤";
+	char a[20];
+int b=15;
+int x;
+while(1){
+scanf("%s",&a);
+if(strcmp(i,a)==0)
+printf("进入游戏\n");
+printf("该数字为1-20\n");
+scanf("%d",&x);
+if(x==15){
+printf("你太厉害了\n");
+
+}
+else if(x>15){
+printf("你猜得太大了\n");
+}
+else{
+printf("你猜得太小了\n");
+}
+
+}
+
+}
