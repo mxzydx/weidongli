@@ -5,6 +5,7 @@ void main(){
 	char a[20];
 int b=15;
 int x;
+printf("请输入一段文字进入游戏\n");
 while(1){
 scanf("%s",&a);
 if(strcmp(i,a)==0)
